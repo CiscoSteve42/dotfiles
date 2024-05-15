@@ -1,0 +1,6 @@
+map r rotate
+map K zoom in
+map J zoom out
+map <C-r> recolor
+
+set selection-clipboard clipboard
