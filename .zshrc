@@ -30,6 +30,7 @@ alias t=tmux
 alias iv=sxiv
 alias ..='cd ..'
 alias ...='cd ../..'
+alias cl=clear
 
 
 source /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh  /usr/share/zsh/plugins/zsh-drim/zsh-dwim/init.zsh  
