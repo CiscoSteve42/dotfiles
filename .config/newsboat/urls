@@ -1,3 +1,4 @@
+"---MISC---"
 realpython.com/podcasts/rpp/feed
 feeds.feedburner.com/TheHackersNews
 https://archlinux.org/feeds/news/
@@ -14,17 +15,17 @@ https://lukesmith.xyz/index.xml
 https://torrentfreak.com/feed/
 https://christitus.com/categories/linux/index.xml
 http://suckless.org/atom.xml
-
+"---Reddit---"
 https://www.reddit.com/r/unixporn.rss
 https://www.reddit.com/r/homelab.rss
 https://www.reddit.com/r/itrunsdoom.rss
-
+"---Odysee---"
 https://odysee.com/$/rss/@AlphaNerd:8
 https://odysee.com/$/rss/@DistroTube:2
 https://odysee.com/$/rss/@davidbombal:0
 https://odysee.com/$/rss/@JohnHammond:b
 https://odysee.com/$/rss/@thelinuxcast:4
-
+"---Youtube---"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCUyeluBRhGPCW4rPe_UvBZQ
 https://www.youtube.com/feeds/videos.xml?channel_id=UC6biysICWOJ-C3P4Tyeggzg
 https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA
