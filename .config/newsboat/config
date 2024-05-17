@@ -18,7 +18,7 @@ color listfocus_unread color238 color47 standout
 color info color141 color236
 
 # highlights
-highlight all "---.*---" yellow
+highlight all "---.*---" color212
 highlight feedlist ".*(0/0))" black
 highlight article "(^Feed:|^Title:|^Date:|^Link:|^Author:)" cyan default bold
 highlight article "https?://[^ ]+" yellow default
