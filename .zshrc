@@ -1,4 +1,5 @@
 #Theme by CiscoSteve42
+#install oh-my-zsh and required plugins before using
 
 export ZSH="/home/dad/.oh-my-zsh"
 ZSH_THEME="af-magic"
