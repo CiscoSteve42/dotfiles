@@ -27,12 +27,14 @@ source $ZSH/oh-my-zsh.sh
 alias neo=neofetch
 alias vim=nvim
 alias vi=nvim
+alias v=nvim
 alias t=tmux
 alias iv=sxiv
 alias ..='cd ..'
 alias ...='cd ../..'
 alias cl=clear
 alias Syu='sudo pacman -Syu'
+alias mix=pacmixer
 
 
 source /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh  /usr/share/zsh/plugins/zsh-drim/zsh-dwim/init.zsh  
