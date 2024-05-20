@@ -50,6 +50,8 @@ keys = [
     Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
     Key([mod], "d", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),
     Key([mod], "s", lazy.spawn("scrot")),
+    Key([mod], "f", lazy.spawn("firefox")),
+    Key([mod], "b", lazy.spawn("blueman-manager")),
 ]
 
 groups = [Group(i) for i in "123456789"]
@@ -179,4 +181,4 @@ wl_input_rules = None
 #
 # We choose LG3D to maximize irony: it is a 3D non-reparenting WM written in
 # java that happens to be on java's whitelist.
-wmname = "LG3D"
+wmname = "CiscoSteve42"
