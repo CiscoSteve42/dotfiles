@@ -11,11 +11,11 @@ print_info() {
     info "$(color 4)Packages" packages
     info "$(color 4)Shell" shell
     info "$(color 4)Resolution" resolution
-    info "$(color 4)DE" de
-    #info "WM" wm
+    info "$(color 4)WM" de
+    info "$(color 4)User" wm
     #info "WM Theme" wm_theme
-    #info "Theme" theme
-    #info "Icons" icons
+    info "$(color 4)Theme" theme
+    info "$(color 4)Icons" icons
     info "$(color 4)Terminal" term
     info "$(color 4)Terminal Font" term_font
     info "$(color 4)CPU" cpu
