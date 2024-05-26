@@ -53,7 +53,7 @@ keys = [
     Key([mod], "f", lazy.spawn("firefox")),
     Key([mod], "b", lazy.spawn("blueman-manager")),
     Key([mod], "p", lazy.spawn("sxiv Pictures")),
-    Key([mod], "a", lazy.spawn("alacritty -e lf Books"))
+    Key([mod], "a", lazy.spawn("alacritty -e yazi Books"))
 ]
 
 groups = [Group(i) for i in "123456789"]
