@@ -54,7 +54,7 @@ keys = [
     Key([mod], "b", lazy.spawn("blueman-manager")),
     Key([mod], "p", lazy.spawn("sxiv Pictures")),
     Key([mod], "a", lazy.spawn("alacritty -e yazi Books")),
-    Key([mod], "k", lazy.spawn("kdeconnect-app"))
+    Key([mod], "o", lazy.spawn("kdeconnect-app"))
 ]
 
 groups = [Group(i) for i in "123456789"]
