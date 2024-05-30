@@ -36,7 +36,7 @@ alias cl=clear
 alias Syu='sudo pacman -Syu'
 alias mix=pacmixer
 alias wifi='nmcli dev wifi list'
-
+alias news=newsboat
 
 source /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh  /usr/share/zsh/plugins/zsh-drim/zsh-dwim/init.zsh  
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
