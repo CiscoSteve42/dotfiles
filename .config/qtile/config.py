@@ -52,10 +52,10 @@ keys = [
     Key([mod], "s", lazy.spawn("scrot")),
     Key([mod], "f", lazy.spawn("firefox")),
     Key([mod], "b", lazy.spawn("blueman-manager")),
-    Key([mod], "p", lazy.spawn("sxiv Pictures")),
+    Key([mod], "v", lazy.spawn("sxiv Pictures")),
     Key([mod], "a", lazy.spawn("alacritty -e yazi Books")),
-    Key([mod], "o", lazy.spawn("kdeconnect-app")),
-    Key([mod], "u", lazy.spawn("packettracer"))
+    Key([mod], "c", lazy.spawn("kdeconnect-app")),
+    Key([mod], "p", lazy.spawn("packettracer"))
 ]
 
 groups = [Group(i) for i in "123456789"]
