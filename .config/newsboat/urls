@@ -16,6 +16,7 @@ https://christitus.com/categories/linux/index.xml
 http://suckless.org/atom.xml
 https://nostarch.com/feeds/newbooks.xml
 https://nostarch.com/feeds/comingsoon.xml
+https://feeds.fireside.fm/thelinuxcast/rss
 "---Podcasts---"
 http://realpython.com/podcasts/rpp/feed
 https://feeds.eff.org/howtofixtheinternet
@@ -24,6 +25,7 @@ https://anchor.fm/s/f39e007c/podcast/rss
 https://www.reddit.com/r/unixporn.rss
 https://www.reddit.com/r/homelab.rss
 https://www.reddit.com/r/itrunsdoom.rss
+https://www.reddit.com/r/graftingplants.rss
 "---Odysee---"
 https://odysee.com/$/rss/@AlphaNerd:8
 https://odysee.com/$/rss/@DistroTube:2
@@ -35,4 +37,8 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCUyeluBRhGPCW4rPe_UvBZQ
 https://www.youtube.com/feeds/videos.xml?channel_id=UC6biysICWOJ-C3P4Tyeggzg
 https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA
 https://www.youtube.com/feeds/videos.xml?channel_id=UC9x0AN7BWHpCDHSm9NiJFJQ
+https://www.youtube.com/feeds/videos.xml?channel_id=UC5--wS0Ljbin1TjWQX6eafA
+ https://www.youtube.com/feeds/videos.xml?channel_id=UCg6gPGh8HU2U01vaFCAsvmQ
+ https://www.youtube.com/feeds/videos.xml?channel_id=UCld68syR8Wi-GY_n4CaoJGA
+https://www.youtube.com/feeds/videos.xml?channel_id=UCArm3kgdT8r2BPZ8RrOTctQ
 
