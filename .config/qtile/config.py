@@ -56,7 +56,8 @@ keys = [
     Key([mod], "a", lazy.spawn("alacritty -e yazi Books")),
     Key([mod], "c", lazy.spawn("kdeconnect-app")),
     Key([mod], "p", lazy.spawn("sxiv Pictures")),
-    Key([mod], "w", lazy.spawn("wireshark"))
+    Key([mod], "w", lazy.spawn("wireshark")),
+    Key([mod], "x", lazy.spawn("keepassxc"))
 ]
 
 groups = [Group(i) for i in "123456789"]
