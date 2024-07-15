@@ -50,7 +50,7 @@ keys = [
     Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
     Key([mod], "d", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),
     Key([mod], "s", lazy.spawn("scrot")),
-    Key([mod], "f", lazy.spawn("firefox")),
+    Key([mod], "f", lazy.spawn("librewolf")),
     Key([mod], "b", lazy.spawn("blueman-manager")),
     Key([mod], "v", lazy.spawn("virtualbox")),
     Key([mod], "a", lazy.spawn("alacritty -e yazi Books")),
