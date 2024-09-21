@@ -59,7 +59,7 @@ keys = [
     Key([mod], "s", lazy.spawn("scrot")),
     Key([mod], "f", lazy.spawn("librewolf")),
     Key([mod], "b", lazy.spawn("blueman-manager")),
-    Key([mod], "v", lazy.spawn("virtualbox")),
+    Key([mod], "v", lazy.spawn("virt-manager")),
     Key([mod], "a", lazy.spawn("alacritty -e yazi Books")),
     Key([mod], "c", lazy.spawn("kdeconnect-app")),
     Key([mod], "p", lazy.spawn("sxiv Pictures")),
