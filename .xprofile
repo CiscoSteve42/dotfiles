@@ -2,4 +2,3 @@ nitrogen --restore
 picom -f &
 xset b off
 brightnessctl set 80%
-wmname "LG3D"
