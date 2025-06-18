@@ -13,9 +13,11 @@ from libqtile.config import Click, Drag, Group, Key, Match, Screen
 from libqtile.lazy import lazy
 from libqtile.utils import guess_terminal
 #from qtile_extras import widget
+import os
 
 mod = "mod4"
 terminal = "alacritty"
+os.environ["QT_QPA_PLATFORMTHEME"] = "qt5ct" 
 
 keys = [
     # A list of available commands that can be bound to keys can be found
