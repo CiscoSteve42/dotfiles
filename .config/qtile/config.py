@@ -64,7 +64,9 @@ keys = [
     Key([mod], "c", lazy.spawn("kdeconnect-app")),
     Key([mod], "p", lazy.spawn("sxiv Pictures")),
     Key([mod], "w", lazy.spawn("wireshark")),
-    Key([mod], "x", lazy.spawn("keepassxc"))
+    Key([mod], "x", lazy.spawn("keepassxc")),
+    Key([mod], "z", lazy.spawn("bash -c 'GTK_THEME=Dracula pavucontrol'"))
+
 ]
 
 groups = [Group(i) for i in "123456789"]
