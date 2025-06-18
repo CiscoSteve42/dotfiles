@@ -50,5 +50,6 @@ source /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh  /usr
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
 export VISUAL=nvim
 export EDITOR=nvim
-
-
+export PATH="$HOME/.cargo/bin:$PATH"
+export PATH=$HOME/bin:$PATH
+export QT_QPA_PLATFORMTHEME=qt6ct
