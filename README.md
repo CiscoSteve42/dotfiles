@@ -1,1 +1,2 @@
-a collection of the configs that I use in my home directory
+A collection of the configs that I use on my systems.
+![thugtux](assets/thugtux.png)
