@@ -17,7 +17,7 @@ import os
 
 mod = "mod4"
 terminal = "alacritty"
-os.environ["QT_QPA_PLATFORMTHEME"] = "qt5ct" 
+os.environ["QT_QPA_PLATFORMTHEME"] = "qt6ct" 
 
 keys = [
     # A list of available commands that can be bound to keys can be found
@@ -67,7 +67,8 @@ keys = [
     Key([mod], "p", lazy.spawn("sxiv Pictures")),
     Key([mod], "w", lazy.spawn("wireshark")),
     Key([mod], "x", lazy.spawn("keepassxc")),
-    Key([mod], "z", lazy.spawn("bash -c 'GTK_THEME=Dracula pavucontrol'"))
+    Key([mod], "z", lazy.spawn("bash -c 'GTK_THEME=Dracula pavucontrol'")),
+    Key([mod, "control"], "f", lazy.spawn("firefox"))
 
 ]
 
