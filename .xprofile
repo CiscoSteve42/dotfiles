@@ -2,3 +2,5 @@ nitrogen --restore
 picom -f &
 xset b off
 brightnessctl set 80%
+xss-lock dm-tool lock &
+
