@@ -69,7 +69,9 @@ keys = [
     Key([mod], "x", lazy.spawn("keepassxc")),
     Key([mod], "z", lazy.spawn("bash -c 'GTK_THEME=Dracula pavucontrol'")),
     Key([mod, "control"], "f", lazy.spawn("firefox")),
-    Key([mod], "m", lazy.spawn("minecraft-launcher"))
+    Key([mod], "m", lazy.spawn("minecraft-launcher")),
+    Key([mod, "control"], "m", lazy.spawn("curseforge"))
+
 
 ]
 
