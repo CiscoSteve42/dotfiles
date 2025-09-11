@@ -62,7 +62,7 @@ keys = [
     Key([mod], "f", lazy.spawn("librewolf")),
     Key([mod], "b", lazy.spawn("blueman-manager")),
     Key([mod, "control"], "v", lazy.spawn("virt-manager")),
-    Key([mod], "a", lazy.spawn("alacritty -e yazi Books")),
+    Key([mod, "control"], "a", lazy.spawn("alacritty -e yazi Books")),
     Key([mod], "c", lazy.spawn("kdeconnect-app")),
     Key([mod], "p", lazy.spawn("sxiv Pictures")),
     Key([mod], "w", lazy.spawn("wireshark")),
@@ -72,7 +72,8 @@ keys = [
     Key([mod], "m", lazy.spawn("minecraft-launcher")),
     Key([mod, "control"], "m", lazy.spawn("curseforge")),
     Key([mod], "r", lazy.spawn("retroarch")),
-    Key([mod, "control"], "d", lazy.spawn("discord"))
+    Key([mod, "control"], "d", lazy.spawn("discord")),
+    Key([mod], "a", lazy.spawn("arandr"))
 
 
 ]
