@@ -45,6 +45,8 @@ alias wifi='nmcli dev wifi list'
 alias news=newsboat
 alias disk='sudo fdisk -l'
 alias pavu='GTK_THEME=Dracula pavucontrol'
+alias c='cmus'
+alias h='htop'
 
 source /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh  /usr/share/zsh/plugins/zsh-drim/zsh-dwim/init.zsh  
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
