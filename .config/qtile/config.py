@@ -73,7 +73,8 @@ keys = [
     Key([mod, "control"], "m", lazy.spawn("curseforge")),
     Key([mod], "r", lazy.spawn("retroarch")),
     Key([mod, "control"], "d", lazy.spawn("discord")),
-    Key([mod], "a", lazy.spawn("arandr"))
+    Key([mod], "a", lazy.spawn("arandr")),
+    Key([mod, "shift"], "f", lazy.spawn("brave")),
 
 
 ]
