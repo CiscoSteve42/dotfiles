@@ -12,10 +12,7 @@ ZSH_THEME="af-magic"
 ENABLE_CORRECTION="true"
 
 export MANPAGER="nvim +Man!"
-
-if command -v neofetch >/dev/null 2>@1; then
   neofetch
-fi
 
 plugins=($plugins
 	git  
