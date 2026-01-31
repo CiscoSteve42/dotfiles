@@ -49,6 +49,7 @@ alias pavu='GTK_THEME=Dracula pavucontrol'
 alias c='cmus'
 alias h='htop'
 alias ifconfig='ip a'
+alias update='sudo dnf update -y'
 
 source /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh  /usr/share/zsh/plugins/zsh-drim/zsh-dwim/init.zsh  
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
