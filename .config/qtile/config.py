@@ -106,7 +106,7 @@ for i in groups:
     )
 
 layouts = [
-    layout.Columns(border_focus_stack=["#bd93f9"], border_width=2,margin=2, border_focus='#50fa7b', border_normal='#ff79c6'),
+    layout.Columns(border_focus_stack=["#bd93f9"], border_width=2,margin=2, border_focus='#50fa7b', border_normal='#ff79c6', insert_position=0),
     layout.Max(),
     # Try more layouts by unleashing below layouts.
     # layout.Stack(num_stacks=2),
