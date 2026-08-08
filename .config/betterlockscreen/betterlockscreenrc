@@ -30,7 +30,7 @@ layoutcolor=ffffffff
 keyhlcolor=#50fa7b
 bshlcolor=#ff79c6
 veriftext="Verifying..."
-verifcolor=#bd93f9
+verifcolor=#50fa7b
 wrongtext="You didn't say the magic word =)"
 wrongcolor=#50fa7b
 modifcolor=d23c3dff
