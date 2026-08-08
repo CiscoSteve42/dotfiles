@@ -75,6 +75,7 @@ keys = [
     Key([mod, "control"], "d", lazy.spawn("discord")),
     Key([mod], "a", lazy.spawn("arandr")),
     Key([mod, "shift"], "f", lazy.spawn("brave")),
+    Key([mod], "slash", lazy.spawn("betterlockscreen -l")),
 
 
 ]
@@ -106,7 +107,7 @@ for i in groups:
     )
 
 layouts = [
-    layout.Columns(border_focus_stack=["#bd93f9"], border_width=2,margin=2, border_focus='#50fa7b', border_normal='#ff79c6', insert_position=0),
+    layout.Columns(border_focus_stack=["#bd93f9"], border_width=2,margin=2, border_focus='#50fa7b', border_normal='#ff79c6'),
     layout.Max(),
     # Try more layouts by unleashing below layouts.
     # layout.Stack(num_stacks=2),
@@ -122,7 +123,7 @@ layouts = [
 ]
 
 widget_defaults = dict(
-    font="sans",
+    font="Jetbrains Mono",
     fontsize=18,
     padding=3,
 )
@@ -142,7 +143,7 @@ screens = [
                     },
                     name_transform=lambda name: name.upper(),
                 ),
-                widget.Cmus(font = "Jetbrains Mono", play_color="#50fa7b", noplay_color="#ff79c6", background="#6272a4"),
+                #widget.Cmus(font = "Jetbrains Mono", play_color="#50fa7b", noplay_color="#ff79c6", background="#6272a4"),
                 widget.CheckUpdates(distro="Arch_paru", font="Jetbrains Mono", background="#8be9fd"),
                 widget.CPU(font = "Jetbrains Mono", background="#ff79c6", foreground="#8be9fd"),
                 widget.Net(font = "Jetbrains Mono", background="#50fa7b", foreground="ff79c6"),
