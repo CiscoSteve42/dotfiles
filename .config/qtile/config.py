@@ -71,11 +71,13 @@ keys = [
     Key([mod, "control"], "f", lazy.spawn("firefox")),
     Key([mod], "m", lazy.spawn("minecraft-launcher")),
     Key([mod, "control"], "m", lazy.spawn("curseforge")),
+    Key([mod, "shift"], "m", lazy.spawn("prismlauncher")),
     Key([mod], "r", lazy.spawn("retroarch")),
     Key([mod, "control"], "d", lazy.spawn("discord")),
     Key([mod], "a", lazy.spawn("arandr")),
     Key([mod, "shift"], "f", lazy.spawn("brave")),
     Key([mod], "slash", lazy.spawn("betterlockscreen -l")),
+    Key([mod, "shift"], "s", lazy.spawn('bash -c "maim -s | tee ~/Pictures/Screenshots/Screenshot_$(date +%Y-%m-%d_%H-%M-%S).png | xclip -selection clipboard -t image/png"'))
 
 
 ]
